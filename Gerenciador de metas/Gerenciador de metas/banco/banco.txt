@@ -1,9 +1,0 @@
-CREATE DATABASE metas;
-
-USE metas;
-
-CREATE TABLE meta(
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    ds_meta VARCHAR(255) NOT NULL,
-    st_meta INT NOT NULL
-);
